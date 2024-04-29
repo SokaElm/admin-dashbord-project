@@ -1,65 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashbord</title>
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="sidebar">
-        <div class="top-menu">
-            <div class="logo">
-                <img src="./img/view-dashboard.svg" alt="logo">
-                <h1>Dashboard</h1>
-            </div>
-            <div class="side-menu">
-                <img src="./img/home.svg" alt="home">
-                <h2>Home</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/card-account-details-outline.svg" alt="profile">
-                <h2>Profile</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/message.svg" alt="messages">
-                <h2>Messages</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/clock-time-three-outline.svg" alt="history">
-                <h2>History</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/file-multiple.svg" alt="tasks">
-                <h2>Tasks</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/account-group.svg" alt="communities">
-                <h2>Communities</h2>
-            </div>
+      <div class="top-menu">
+        <div class="logo">
+          <img src="./img/view-dashboard.svg" alt="logo" />
+          <h1>Dashboard</h1>
         </div>
-        <div class="bottom-menu">
-            <div class="side-menu">
-                <img src="./img/cog-outline.svg" alt="settings">
-                <h2>Settings</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/help-box.svg" alt="support">
-                <h2>Support</h2>
-            </div>
-            <div class="side-menu">
-                <img src="./img/shield-check.svg" alt="privacy">
-                <h2>Privacy</h2>
-            </div>
+        <div class="side-menu">
+          <img src="./img/home.svg" alt="home" />
+          <h2>Home</h2>
         </div>
+        <div class="side-menu">
+          <img src="./img/card-account-details-outline.svg" alt="profile" />
+          <h2>Profile</h2>
+        </div>
+        <div class="side-menu">
+          <img src="./img/message.svg" alt="messages" />
+          <h2>Messages</h2>
+        </div>
+        <div class="side-menu">
+          <img src="./img/clock-time-three-outline.svg" alt="history" />
+          <h2>History</h2>
+        </div>
+        <div class="side-menu">
+          <img src="./img/file-multiple.svg" alt="tasks" />
+          <h2>Tasks</h2>
+        </div>
+        <div class="side-menu">
+          <img src="./img/account-group.svg" alt="communities" />
+          <h2>Communities</h2>
+        </div>
+      </div>
+      <div class="bottom-menu">
+        <div class="side-menu">
+          <img src="./img/cog-outline.svg" alt="settings" />
+          <h2>Settings</h2>
+        </div>
+        <div class="side-menu">
+          <img src="./img/help-box.svg" alt="support" />
+          <h2>Support</h2>
+        </div>
+        <div class="side-menu">
+          <img src="./img/shield-check.svg" alt="privacy" />
+          <h2>Privacy</h2>
+        </div>
+      </div>
     </div>
-    <header></header>
-    <div class="board">
-        <div class="projects"></div>
-        <div class="annoucements"></div>
-        <div class="trending"></div>
-    </div>
+    <header>
+      <div class="top-header">
+        <div class="search">
+          <img src="./img/magnify.svg" alt="search" />
+          <input type="search" id="search" />
+        </div>
 
-    
-</body>
+        <div class="user">
+          <img src="./img/bell-ring-outline.svg" alt="alarm" />
+          <img src="./img/yoda.jpg" alt="user" />
+          <p>Morgan Oakley</p>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <div class="hi-section">
+          <img src="./img/yoda.jpg" alt="user" />
+          <div class="hi-msg">
+            <p>Hi there,</p>
+            <h3>Morgan Oakley (@morgan)</h3>
+          </div>
+        </div>
+        <div class="buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="board">
+      <div class="main-grid">
+        <h4>Your projects</h4>
+        <div class="projects">
+          <div class="cards">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              laudantium id? Nobis cumque iusto deserunt harum suscipit, ad illo
+              consequuntur nihil nesciunt, accusantium aliquid similique tempore
+              porro repudiandae nostrum architecto.
+            </p>
+            <div class="cards-img">
+              <img src="./img/star-plus-outline.svg" alt="star" /><img
+                src="./img/eye-plus-outline.svg"
+                alt="eye"
+              /><img src="./img/share-variant-outline.svg" alt="share" />
+            </div>
+          </div>
+          <div class="cards">
+            <h4>Less Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              quibusdam, vero sit tenetur eaque cum consectetur delectus eum
+              tempore hic debitis quae laudantium cupiditate? Consequatur quas
+              sapiente architecto doloribus pariatur.
+            </p>
+            <div class="cards-img">
+              <img src="./img/star-plus-outline.svg" alt="star" /><img
+                src="./img/eye-plus-outline.svg"
+                alt="eye"
+              /><img src="./img/share-variant-outline.svg" alt="share" />
+            </div>
+          </div>
+          <div class="cards">
+            <h4>Impossible App</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+              sit rerum cum magni exercitationem inventore velit laborum,
+              deleniti quod debitis fugit quos reprehenderit optio molestias
+              cupiditate, delectus neque ad? Harum.
+            </p>
+            <div class="cards-img">
+              <img src="./img/star-plus-outline.svg" alt="star" /><img
+                src="./img/eye-plus-outline.svg"
+                alt="eye"
+              /><img src="./img/share-variant-outline.svg" alt="share" />
+            </div>
+          </div>
+          <div class="cards">
+            <h4>Easy Peasy App</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+              dignissimos dolorum recusandae blanditiis ab nisi expedita sunt.
+              Saepe, illo, pariatur mollitia repudiandae delectus neque
+              aspernatur sit voluptatum dolore ipsum rem!
+            </p>
+            <div class="cards-img">
+              <img src="./img/star-plus-outline.svg" alt="star" /><img
+                src="./img/eye-plus-outline.svg"
+                alt="eye"
+              /><img src="./img/share-variant-outline.svg" alt="share" />
+            </div>
+          </div>
+          <div class="cards">
+            <h4>Ad Blocker</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              beatae magnam ullam natus soluta rem earum minus distinctio sunt
+              eaque dignissimos tempore similique, vero, excepturi nesciunt,
+              tenetur labore aspernatur quibusdam!
+            </p>
+            <div class="cards-img">
+              <img src="./img/star-plus-outline.svg" alt="star" /><img
+                src="./img/eye-plus-outline.svg"
+                alt="eye"
+              /><img src="./img/share-variant-outline.svg" alt="share" />
+            </div>
+          </div>
+          <div class="cards">
+            <h4>Money Maker</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              consequatur enim magnam rerum fugiat fuga at maxime illum culpa
+              repudiandae quisquam architecto labore, vero laborum placeat
+              dolorum sit quo aperiam?
+            </p>
+            <div class="cards-img">
+              <img src="./img/star-plus-outline.svg" alt="star" /><img
+                src="./img/eye-plus-outline.svg"
+                alt="eye"
+              /><img src="./img/share-variant-outline.svg" alt="share" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="announcements">
+        <h4>Announcements</h4>
+        <div class="announces">
+          <h5>Site Maintenance</h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam,
+            veniam ab molestiae, iusto nobis.
+          </p>
+          <h5>Community Share Day</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            corrupti ab ratione quibusdam dolore debitis sed saepe iste.
+          </p>
+          <h5>Updated Privacy Policy</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            architecto sed eaque.
+          </p>
+        </div>
+      </div>
+      <div class="trending">
+        <h4>Trendings</h4>
+        <div class="trends">
+          <img src="./img/yoda.jpg" alt="user" />
+          <div class="other-users">
+            <h6>@tegan</h6>
+            <p>World Peace Builder</p>
+          </div>
+        </div>
+        <div class="trends">
+          <img src="./img/yoda.jpg" alt="user" />
+          <div class="other-users">
+            <h6>@morgan</h6>
+            <p>Super Cool Project</p>
+          </div>
+        </div>
+        <div class="trends">
+          <img src="./img/yoda.jpg" alt="user" />
+          <div class="other-users">
+            <h6>@kendall</h6>
+            <p>Life Changing App</p>
+          </div>
+        </div>
+        <div class="trends">
+          <img src="./img/yoda.jpg" alt="user" />
+          <div class="other-users">
+            <h6>@alex</h6>
+            <p>No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
